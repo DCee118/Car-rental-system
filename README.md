@@ -1,2 +1,2 @@
-# Car-rental-system
+# Fast Rentals
 Car Rental System
