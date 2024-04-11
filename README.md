@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fast Rentals Car Rental System
 
 ## Description
@@ -14,3 +15,7 @@ The Car Rental System is a software application designed to manage car rentals e
 3. Install the required dependencies using ```pip install -r requirements.txt```.
 4. Set up your MySQL database and configure the connection settings in config.py.
 5. Run the application using python main.py.
+=======
+# Fast Rentals
+Car Rental System
+>>>>>>> e9896da8d68aeb89c00f12b51a88206a41604f0f
