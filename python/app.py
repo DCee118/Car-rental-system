@@ -2,10 +2,11 @@ import mysql.connector
 from mysql.connector import Error
 # connecting to my mysql
 try:
-    connection = mysql.connector.connect(host='localhost',
+    connection = mysql.connector.connect(host='mysql',
                                          database='fast_rentals',
                                          user='root',
-                                         password='password')
+                                         password='password',
+                                         port='3306')
     if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
